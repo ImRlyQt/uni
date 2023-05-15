@@ -1,0 +1,22 @@
+x[1]=0;
+x[2]=1;
+Do[x[n+1]=3*x[n]-2*x[n-1]+6^n;
+Print["x[",n+1,"]=",x[n+1]],{n,2,20}]
+
+a[1]=1;
+a[2]=2;
+a[a_]:=a[n-1]+a[n-2];
+Table[a[n],{n,1,50}]
+
+
+a[1]=1;
+a[2]=2;
+a[a_]:=a[n-1]+a[n-2];
+Table[a[n],{n,1,50}]
+FindSequenceFunction[{3,9,27,81},n]
+GeneratingFunction[n^2,n,x]
+Expand[%]
+Series[%,{x,0,10}]
+
+
+szyfrowanie/odszyfrowywanie napisanie dokumentacji dowolny język

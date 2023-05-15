@@ -1,0 +1,1 @@
+g++ sourcefilename.C -o runfilename
